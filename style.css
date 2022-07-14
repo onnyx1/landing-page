@@ -1,0 +1,50 @@
+
+
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+
+.container, .header-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-area{
+    background-color: rgb(31,41,55);
+}
+
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px
+}
+
+a {
+    text-decoration: none;
+
+}
+
