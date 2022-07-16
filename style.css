@@ -126,4 +126,81 @@ button {
   text-align: center;
 }
 
+.quote-area{
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+} 
 
+
+.quote{
+  font-size: 34px;
+  font-weight: 200;
+  font-style: italic;
+  width: 50%;
+  padding:100px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figcaption{
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  align-self: flex-end;
+  margin-right: 0px;
+  margin-top: 15px;
+}
+
+blockquote{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  color: #e5e7eb;
+}
+
+
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  background-color: #3882f6;
+  padding: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+}
+.sign-section{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 500px;
+}
+
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 41, 55);
+  padding: 30px;
+  margin-top: 50px;
+  color: #e5e7eb;
+
+}
+
+.footer-size{
+  height: 50px;
+}
